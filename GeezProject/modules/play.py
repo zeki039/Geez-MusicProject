@@ -504,11 +504,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
+                    InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ ʙᴜᴄɪɴ", url="t.me/randfeels"),
+                    InlineKeyboardButton("Group Chat", url="t.me/cchbct"),
                 ],
-                [InlineKeyboardButton(text="Support Channel", url="https://t.me/Vckyouuu")],
-                [InlineKeyboardButton(text="Close", callback_data="cls")],
+                [InlineKeyboardButton(text="ᴏᴡɴᴇʀ ɪɢ", url="https://instagram.com/zekiloi")],
             ]
         )
         requested_by = message.from_user.first_name
