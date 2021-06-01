@@ -807,7 +807,9 @@ async def jiosaavn(client: Client, message_: Message):
         chat_id=message_.chat.id,
         reply_markup=keyboard,
         photo="final.png",
-        caption=f"Playing {sname} Via Jiosaavn",
+        caption=f"🏷 **Judul:** [{title[:60]}]({url})\n**⏱ Durasi:** {duration}\n" \
+                + f"💡 **Status:** Playing\n🎧 **Permintaan:** {requested_by}".format(
+        message.from_user.mention()
     )
     os.remove("final.png")
 
