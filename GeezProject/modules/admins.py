@@ -94,9 +94,9 @@ async def skip(_, message: Message):
     await message.reply_text(f"- Skipped **{skip[0]}**\n- Now Playing **{qeue[0][0]}**")
 
 
-@Client.on_message(filters.command("admincache"))
+@Client.on_message(filters.command("reload"))
 @errors
-async def admincache(client, message: Message):
+async def reload(client, message: Message):
     set(
         message.chat.id,
         [
