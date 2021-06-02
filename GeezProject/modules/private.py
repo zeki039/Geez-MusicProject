@@ -22,7 +22,7 @@ def _start(client, message):
                         "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
+                        "ᴏᴡɴᴇʀ ɪɢ", url=f"https://instagram.com/zekiloi")
                 ]
             ]
         ),
@@ -37,7 +37,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Support Chat", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "ᴏᴡɴᴇʀ ɪɢ", url=f"https://instagram.com/zekiloi"
                     )
                 ]
             ]
