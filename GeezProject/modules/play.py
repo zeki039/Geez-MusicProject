@@ -812,5 +812,4 @@ async def jiosaavn(client: Client, message_: Message):
         message.from_user.mention()
         ),
     )
-        os.remove("final.png")
-        return await lel.delete()
+    os.remove("final.png")
