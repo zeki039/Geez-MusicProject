@@ -810,8 +810,7 @@ async def jiosaavn(client: Client, message_: Message):
         caption=f"🏷 **Judul:** [{title[:60]}]({url})\n**⏱ Durasi:** {duration}\n" \
                 + f"💡 **Status:** Playing\n🎧 **Permintaan:** {requested_by}".format(
         message.from_user.mention()
+        ),
     )
-    os.remove("final.png")
-
-
-# Have u read all. If read RESPECT :-)
+        os.remove("final.png")
+        return await lel.delete()
